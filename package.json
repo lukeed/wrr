@@ -1,0 +1,39 @@
+{
+  "name": "wrr",
+  "version": "0.0.0",
+  "repository": "lukeed/wrr",
+  "description": "A tiny (148B) weighted round robin utility",
+  "unpkg": "dist/wrr.min.js",
+  "module": "dist/wrr.m.js",
+  "main": "dist/wrr.js",
+  "types": "wrr.d.ts",
+  "license": "MIT",
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape -r esm test/*.js | tap-spec"
+  },
+  "keywords": [
+    "round robin",
+    "round robin ratio",
+    "weighted round robin"
+  ],
+  "devDependencies": {
+    "bundt": "0.4.0",
+    "esm": "3.2.25",
+    "tap-spec": "5.0.0",
+    "tape": "4.11.0"
+  }
+}
