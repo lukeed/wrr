@@ -4,7 +4,7 @@
   "repository": "lukeed/wrr",
   "description": "A tiny (148B) weighted round robin utility",
   "unpkg": "dist/wrr.min.js",
-  "module": "dist/wrr.m.js",
+  "module": "dist/wrr.mjs",
   "main": "dist/wrr.js",
   "types": "wrr.d.ts",
   "license": "MIT",
