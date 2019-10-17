@@ -5,6 +5,6 @@ export interface Weighted<T> {
 	item: T;
 }
 
-export type Picker<T> = (values: T[]) => T;
+export type Picker<T> = () => T;
 
 export default function wrr<T>(items: Weighted<T>[]): Picker<T>;
