@@ -1,10 +1,10 @@
-export interface Weighted<T> {
+export interface Entry<T> {
 	/** The item's weight (non-decimal) */
 	weight: number;
 	/** The array item */
 	item: T;
 }
 
-export type Picker<T> = () => T;
+export type Getter<T> = () => T;
 
-export default function wrr<T>(items: Weighted<T>[]): Picker<T>;
+export default function<T>(items: Entry<T>[]): Getter<T>;
