@@ -1,4 +1,4 @@
-export interface Entry<T> {
+export interface Weighted<T> {
 	/** The item's weight (non-decimal) */
 	weight: number;
 	/** The array item */
@@ -7,4 +7,4 @@ export interface Entry<T> {
 
 export type Getter<T> = () => T;
 
-export default function<T>(items: Entry<T>[]): Getter<T>;
+export default function<T>(items: Weighted<T>[]): Getter<T>;
