@@ -1,5 +1,5 @@
 {
-  "name": "@lukeed/wrr",
+  "name": "wrr",
   "version": "0.0.2",
   "repository": "lukeed/wrr",
   "description": "A tiny (148B) weighted round robin utility",
@@ -28,7 +28,9 @@
   "keywords": [
     "round robin",
     "round robin ratio",
-    "weighted round robin"
+    "weighted round robin",
+    "weighted random",
+    "wrr"
   ],
   "devDependencies": {
     "bundt": "0.4.0",
