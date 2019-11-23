@@ -1,6 +1,6 @@
 {
   "name": "wrr",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "repository": "lukeed/wrr",
   "description": "A tiny (148B) weighted round robin utility",
   "unpkg": "dist/wrr.min.js",
